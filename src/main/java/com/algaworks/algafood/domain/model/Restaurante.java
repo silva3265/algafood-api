@@ -25,7 +25,7 @@ public class Restaurante {
 	
 	@Column (nullable = false)
 	private String name;
-	
+	 
 	@Column (name = "taxa_frete", nullable = false) //Não aceita Nulo
 	private BigDecimal taxaFrete;
 	
